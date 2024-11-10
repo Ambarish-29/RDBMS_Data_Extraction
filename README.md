@@ -9,11 +9,11 @@ This Repository will contain the codes the fetch iterative chunks of data from d
 ### Language: Python
 
 ### Prerequisites:
-Spark Latest Version
-RDBMS Latest versions
-pycryptodome==3.20.0 python package
-tqdm==4.66.1 python package
-pandas python package
+1. Spark Latest Version
+2. RDBMS Latest versions
+3. pycryptodome==3.20.0 python package
+4. tqdm==4.66.1 python package
+5. pandas python package
 
 
 

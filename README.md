@@ -4,11 +4,11 @@ This Repository will contain the codes the fetch iterative chunks of data from d
 *This will be useful in scenarios where the cluster size is small and the size of data is huge*
 
 
-# Supported RDBMS: Mysql, Maria, Postgres, IBM DB2, Microsoft SQL server
+### Supported RDBMS: Mysql, Maria, Postgres, IBM DB2, Microsoft SQL server
 
-# Language: Python
+### Language: Python
 
-# Prerequisites:
+### Prerequisites:
 Spark Latest Version
 RDBMS Latest versions
 pycryptodome==3.20.0 python package

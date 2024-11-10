@@ -4,11 +4,10 @@
 3. *Most of the Spark ETL Pipelines will fetch data at a whole only, but using this codes we can fetch data in batches*
 4. *This will be useful in scenarios where the cluster size is small and the size of data is huge*
 5. Failure Recovery Scenarios Also Handled - seperate pipeline ensures the data extraction relaibility
-6. Since for protecting own rights, the code skeleton only commited and not the full source code
-7. Based on the cluster size, the pipleine will progress:
+6. Based on the cluster size, the pipleine will progress:
    Example: A small cluster comprises of 2 nodes with 32 GB memory and 4 cores will extract and load a table(size of 64 GB) in 3 batches (example calculation not original one)
-8. With use of RDBMS advantages like Primary, Foreign Keys, Indexing, Partitions the extraction is ensured to be done in a very effective manner.
-9. Proper Error Handling,Comments, Documentation for the code is prepared.
+7. With use of RDBMS advantages like Primary, Foreign Keys, Indexing, Partitions the extraction is ensured to be done in a very effective manner.
+8. Proper Error Handling,Comments, Documentation for the code is prepared.
 
 
 ### Supported RDBMS: Mysql, Maria, Postgres, IBM DB2, Microsoft SQL server
